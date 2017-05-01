@@ -1,0 +1,91 @@
+/* Universal Styles */
+
+body {
+  margin: 0;
+  background-color: black;
+  font-family: "Helvetica", sans-serif;
+  color: white;
+  font-size: 18px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+
+/* Header Section */
+
+header {
+
+  z-index: 1;
+  align-items: left;
+  width: 960px;
+  height: .66rem;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+}
+
+header img {
+  height: 1.5rem;
+  padding-left: .5rem;
+  padding-right: 1rem
+  width: 30%;
+}
+
+/* Main Section */
+.main {
+  padding-top: 69px; /* To offset fixed header */
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+
+#mission {
+  width: 1000px;
+  height: 700px;
+  background-image: url("C:/Users/damie/Documents/GitHub/secretagent/images/moto.jpeg");
+}
+
+#mission .content {
+  padding-left: 3rem;
+  background-color: black;
+  width: 20rem;
+}
+/* Store Section */
+
+#store {
+  width: 700px;
+  height: 3rem;
+  padding-top: 70px;
+  margin: auto;
+  background-color: white;
+}
+
+.item {
+  padding: 5px;
+}
+
+.item img {
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  display: block;
+  border: solid 3px black;
+}
+
+.item span {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Footer Section */
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+  height: 5rem;
+}
